@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name project)(type KiCad)(uri D:\proyectos\DISEÑO\controlLED\lib\Project.pretty)(options "")(descr ""))
+  (lib (name fp)(type KiCad)(uri D:\proyectos\DISEÑO\controlLED\lib\fp.pretty)(options "")(descr ""))
+  (lib (name project)(type KiCad)(uri D:\proyectos\DISEÑO\controlLED\lib\project.pretty)(options "")(descr ""))
 )
