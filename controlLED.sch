@@ -1115,18 +1115,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 2700 6300 2700
 Wire Wire Line
-	5200 2650 5500 2650
-Wire Wire Line
-	5500 2650 5500 2800
-Wire Wire Line
-	5500 2800 6300 2800
-Wire Wire Line
-	5200 2750 5400 2750
-Wire Wire Line
-	5400 2750 5400 2900
-Wire Wire Line
-	5400 2900 6300 2900
-Wire Wire Line
 	5700 3000 6300 3000
 Wire Wire Line
 	5700 3100 6300 3100
@@ -1148,13 +1136,13 @@ Text Label 5200 2850 0    60   ~ 0
 Ain1
 Text Label 5200 2950 0    60   ~ 0
 Ain2
-Text Label 3850 2350 0    60   ~ 0
+Text Label 5200 2750 0    60   ~ 0
 Din1
 Wire Wire Line
 	3850 2350 4150 2350
 Wire Wire Line
 	4150 2650 3850 2650
-Text Label 3850 2650 0    60   ~ 0
+Text Label 5200 2650 0    60   ~ 0
 Din2
 Wire Wire Line
 	4150 1750 3500 1750
@@ -1502,4 +1490,17 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 10800 4050 50  0001 L CNN
 	1    10150 4850
 	1    0    0    1   
 $EndComp
+NoConn ~ 4150 2450
+Text Label 3850 2350 0    60   ~ 0
+PWM06_
+Text Label 3850 2650 0    60   ~ 0
+PWM05_
+Text Label 5700 2800 0    60   ~ 0
+PWM05_
+Text Label 5700 2900 0    60   ~ 0
+PWM06_
+Wire Wire Line
+	5700 2800 6300 2800
+Wire Wire Line
+	5700 2900 6300 2900
 $EndSCHEMATC

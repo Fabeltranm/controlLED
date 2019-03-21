@@ -1,7 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP ESP32_sparkfun
-D Connector 02x20
-$ENDCMP
-#
-#End Doc Library
