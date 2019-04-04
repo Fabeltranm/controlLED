@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:LDD-300L
-LIBS:ESP32_sparkfun
-LIBS:2060-452_998-404
+EESchema Schematic File Version 4
 LIBS:controlLED-cache
-EELAYER 25 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L LDD-300L PS1
+L controlLED-rescue:LDD-300L PS1
 U 1 1 5C869CD5
 P 8750 900
 F 0 "PS1" H 9900 1200 50  0000 L CNN
@@ -68,7 +36,7 @@ F 13 "https://www.alliedelec.com/mean-well-usa-ldd-300l/70387843/" H 9900 -100 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDD-300L PS2
+L controlLED-rescue:LDD-300L PS2
 U 1 1 5C869E24
 P 8750 1450
 F 0 "PS2" H 9900 1750 50  0000 L CNN
@@ -89,7 +57,7 @@ F 13 "https://www.alliedelec.com/mean-well-usa-ldd-300l/70387843/" H 9900 450 50
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDD-300L PS3
+L controlLED-rescue:LDD-300L PS3
 U 1 1 5C869E82
 P 8750 2000
 F 0 "PS3" H 9900 2300 50  0000 L CNN
@@ -110,7 +78,7 @@ F 13 "https://www.alliedelec.com/mean-well-usa-ldd-300l/70387843/" H 9900 1000 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDD-300L PS4
+L controlLED-rescue:LDD-300L PS4
 U 1 1 5C869EC3
 P 8750 2550
 F 0 "PS4" H 9900 2850 50  0000 L CNN
@@ -131,7 +99,7 @@ F 13 "https://www.alliedelec.com/mean-well-usa-ldd-300l/70387843/" H 9900 1550 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDD-300L PS5
+L controlLED-rescue:LDD-300L PS5
 U 1 1 5C86A1E5
 P 8750 3100
 F 0 "PS5" H 9900 3400 50  0000 L CNN
@@ -152,7 +120,7 @@ F 13 "https://www.alliedelec.com/mean-well-usa-ldd-300l/70387843/" H 9900 2100 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDD-300L PS6
+L controlLED-rescue:LDD-300L PS6
 U 1 1 5C86A1F5
 P 8750 3650
 F 0 "PS6" H 9900 3950 50  0000 L CNN
@@ -173,7 +141,7 @@ F 13 "https://www.alliedelec.com/mean-well-usa-ldd-300l/70387843/" H 9900 2650 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDD-300L PS7
+L controlLED-rescue:LDD-300L PS7
 U 1 1 5C86A205
 P 8750 4200
 F 0 "PS7" H 9900 4500 50  0000 L CNN
@@ -194,7 +162,7 @@ F 13 "https://www.alliedelec.com/mean-well-usa-ldd-300l/70387843/" H 9900 3200 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L LDD-300L PS8
+L controlLED-rescue:LDD-300L PS8
 U 1 1 5C86A215
 P 8750 4750
 F 0 "PS8" H 9900 5050 50  0000 L CNN
@@ -263,7 +231,7 @@ GND24
 Text Label 8350 4850 0    60   ~ 0
 PWM08
 $Comp
-L ESP32_sparkfun P3
+L controlLED-rescue:ESP32_sparkfun P3
 U 1 1 5C8736BB
 P 4650 2600
 F 0 "P3" H 4400 3650 50  0000 C CNN
@@ -274,7 +242,7 @@ F 3 "" H 4400 1650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BARREL_JACK CON1
+L controlLED-rescue:BARREL_JACK CON1
 U 1 1 5C873E76
 P 950 800
 F 0 "CON1" H 950 1050 50  0000 C CNN
@@ -285,7 +253,7 @@ F 3 "" H 950 800 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LD1117S50TR U1
+L controlLED-rescue:LD1117S50TR U1
 U 1 1 5C87480B
 P 1550 1950
 F 0 "U1" H 1550 2200 50  0000 C CNN
@@ -300,7 +268,7 @@ VCC24
 Text Label 3950 750  0    60   ~ 0
 GND24
 $Comp
-L GND #PWR01
+L controlLED-rescue:GND #PWR01
 U 1 1 5C8770B7
 P 1500 900
 F 0 "#PWR01" H 1500 650 50  0001 C CNN
@@ -311,7 +279,7 @@ F 3 "" H 1500 900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L controlLED-rescue:GND #PWR02
 U 1 1 5C87757E
 P 1550 2300
 F 0 "#PWR02" H 1550 2050 50  0001 C CNN
@@ -324,7 +292,7 @@ $EndComp
 Text Label 850  1900 0    60   ~ 0
 VCC24
 $Comp
-L GND #PWR03
+L controlLED-rescue:GND #PWR03
 U 1 1 5C877F1B
 P 3700 850
 F 0 "#PWR03" H 3700 600 50  0001 C CNN
@@ -366,7 +334,7 @@ NoConn ~ 5200 1750
 NoConn ~ 5200 2050
 NoConn ~ 5200 2150
 $Comp
-L GND #PWR04
+L controlLED-rescue:GND #PWR04
 U 1 1 5C8865F6
 P 3750 2050
 F 0 "#PWR04" H 3750 1800 50  0001 C CNN
@@ -377,7 +345,7 @@ F 3 "" H 3750 2050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L controlLED-rescue:C C2
 U 1 1 5C886D4C
 P 1100 2200
 F 0 "C2" H 1125 2300 50  0000 L CNN
@@ -388,7 +356,7 @@ F 3 "" H 1100 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L controlLED-rescue:C C3
 U 1 1 5C887135
 P 2000 2200
 F 0 "C3" H 2025 2300 50  0000 L CNN
@@ -399,7 +367,7 @@ F 3 "" H 2000 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C4
+L controlLED-rescue:C C4
 U 1 1 5C8871B2
 P 2300 2200
 F 0 "C4" H 2325 2300 50  0000 L CNN
@@ -410,7 +378,7 @@ F 3 "" H 2300 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L controlLED-rescue:C C1
 U 1 1 5C887226
 P 750 2200
 F 0 "C1" H 775 2300 50  0000 L CNN
@@ -421,7 +389,7 @@ F 3 "" H 750 2200 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L controlLED-rescue:GND #PWR05
 U 1 1 5C8872B5
 P 750 2350
 F 0 "#PWR05" H 750 2100 50  0001 C CNN
@@ -432,7 +400,7 @@ F 3 "" H 750 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L controlLED-rescue:GND #PWR06
 U 1 1 5C88731D
 P 1100 2350
 F 0 "#PWR06" H 1100 2100 50  0001 C CNN
@@ -443,7 +411,7 @@ F 3 "" H 1100 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L controlLED-rescue:GND #PWR07
 U 1 1 5C887385
 P 2000 2350
 F 0 "#PWR07" H 2000 2100 50  0001 C CNN
@@ -454,7 +422,7 @@ F 3 "" H 2000 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L controlLED-rescue:GND #PWR08
 U 1 1 5C8873ED
 P 2300 2350
 F 0 "#PWR08" H 2300 2100 50  0001 C CNN
@@ -465,7 +433,7 @@ F 3 "" H 2300 2350 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R_Small R1
+L controlLED-rescue:R_Small R1
 U 1 1 5C887B44
 P 6400 2400
 F 0 "R1" V 6350 2050 50  0000 L CNN
@@ -476,7 +444,7 @@ F 3 "" H 6400 2400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R2
+L controlLED-rescue:R_Small R2
 U 1 1 5C8894D4
 P 6400 2500
 F 0 "R2" V 6350 2150 50  0000 L CNN
@@ -487,7 +455,7 @@ F 3 "" H 6400 2500 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R3
+L controlLED-rescue:R_Small R3
 U 1 1 5C889547
 P 6400 2600
 F 0 "R3" V 6350 2250 50  0000 L CNN
@@ -498,7 +466,7 @@ F 3 "" H 6400 2600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R4
+L controlLED-rescue:R_Small R4
 U 1 1 5C8895C9
 P 6400 2700
 F 0 "R4" V 6350 2350 50  0000 L CNN
@@ -509,7 +477,7 @@ F 3 "" H 6400 2700 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R5
+L controlLED-rescue:R_Small R5
 U 1 1 5C889642
 P 6400 2800
 F 0 "R5" V 6350 2450 50  0000 L CNN
@@ -520,7 +488,7 @@ F 3 "" H 6400 2800 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R6
+L controlLED-rescue:R_Small R6
 U 1 1 5C8896BE
 P 6400 2900
 F 0 "R6" V 6350 2550 50  0000 L CNN
@@ -537,7 +505,7 @@ Entry Wire Line
 Entry Wire Line
 	6800 3100 6900 3200
 $Comp
-L R_Small R7
+L controlLED-rescue:R_Small R7
 U 1 1 5C889A0A
 P 6400 3000
 F 0 "R7" V 6350 2650 50  0000 L CNN
@@ -548,7 +516,7 @@ F 3 "" H 6400 3000 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R_Small R8
+L controlLED-rescue:R_Small R8
 U 1 1 5C889A10
 P 6400 3100
 F 0 "R8" V 6350 2750 50  0000 L CNN
@@ -575,7 +543,7 @@ PWM06
 Text Label 6500 3100 0    60   ~ 0
 PWM08
 $Comp
-L 2060-452_998-404 J1
+L controlLED-rescue:2060-452_998-404 J1
 U 1 1 5C88C975
 P 10250 1000
 F 0 "J1" H 10900 1150 50  0000 L CNN
@@ -610,7 +578,7 @@ NoConn ~ 10950 4300
 NoConn ~ 10950 4750
 NoConn ~ 10950 4850
 $Comp
-L LD1117S50TR U2
+L controlLED-rescue:LD1117S50TR U2
 U 1 1 5C890138
 P 1550 3150
 F 0 "U2" H 1550 3400 50  0000 C CNN
@@ -621,7 +589,7 @@ F 3 "" H 1550 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L controlLED-rescue:GND #PWR09
 U 1 1 5C89013E
 P 1550 3500
 F 0 "#PWR09" H 1550 3250 50  0001 C CNN
@@ -634,7 +602,7 @@ $EndComp
 Text Label 850  3100 0    60   ~ 0
 VCC24
 $Comp
-L C C6
+L controlLED-rescue:C C6
 U 1 1 5C89014A
 P 1100 3400
 F 0 "C6" H 1125 3500 50  0000 L CNN
@@ -645,7 +613,7 @@ F 3 "" H 1100 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L controlLED-rescue:C C7
 U 1 1 5C890150
 P 2000 3400
 F 0 "C7" H 2025 3500 50  0000 L CNN
@@ -656,7 +624,7 @@ F 3 "" H 2000 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
+L controlLED-rescue:C C8
 U 1 1 5C890156
 P 2300 3400
 F 0 "C8" H 2325 3500 50  0000 L CNN
@@ -667,7 +635,7 @@ F 3 "" H 2300 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C5
+L controlLED-rescue:C C5
 U 1 1 5C89015C
 P 750 3400
 F 0 "C5" H 775 3500 50  0000 L CNN
@@ -678,7 +646,7 @@ F 3 "" H 750 3400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L controlLED-rescue:GND #PWR010
 U 1 1 5C890162
 P 750 3550
 F 0 "#PWR010" H 750 3300 50  0001 C CNN
@@ -689,7 +657,7 @@ F 3 "" H 750 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR011
+L controlLED-rescue:GND #PWR011
 U 1 1 5C890168
 P 1100 3550
 F 0 "#PWR011" H 1100 3300 50  0001 C CNN
@@ -700,7 +668,7 @@ F 3 "" H 1100 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L controlLED-rescue:GND #PWR012
 U 1 1 5C89016E
 P 2000 3550
 F 0 "#PWR012" H 2000 3300 50  0001 C CNN
@@ -711,7 +679,7 @@ F 3 "" H 2000 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR013
+L controlLED-rescue:GND #PWR013
 U 1 1 5C890174
 P 2300 3550
 F 0 "#PWR013" H 2300 3300 50  0001 C CNN
@@ -722,7 +690,7 @@ F 3 "" H 2300 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P9
+L controlLED-rescue:CONN_01X04 P9
 U 1 1 5C890479
 P 2450 7250
 F 0 "P9" H 2450 7500 50  0000 C CNN
@@ -747,7 +715,7 @@ MOSI
 Text Label 800  7400 0    60   ~ 0
 VCC_1
 $Comp
-L GND #PWR014
+L controlLED-rescue:GND #PWR014
 U 1 1 5C89176D
 P 1850 7400
 F 0 "#PWR014" H 1850 7150 50  0001 C CNN
@@ -758,7 +726,7 @@ F 3 "" H 1850 7400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L controlLED-rescue:GND #PWR015
 U 1 1 5C891CF6
 P 800 7500
 F 0 "#PWR015" H 800 7250 50  0001 C CNN
@@ -769,7 +737,7 @@ F 3 "" H 800 7500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR016
+L controlLED-rescue:GNDA #PWR016
 U 1 1 5C89623C
 P 3450 850
 F 0 "#PWR016" H 3450 600 50  0001 C CNN
@@ -780,7 +748,7 @@ F 3 "" H 3450 850 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 P10
+L controlLED-rescue:CONN_01X06 P10
 U 1 1 5C89A474
 P 1400 7250
 F 0 "P10" H 1400 7600 50  0000 C CNN
@@ -793,29 +761,7 @@ $EndComp
 Text Label 800  7000 0    60   ~ 0
 CS
 $Comp
-L CONN_01X01 P2
-U 1 1 5C89F63B
-P 2300 1700
-F 0 "P2" H 2300 1800 50  0000 C CNN
-F 1 "CONN_01X01" V 2400 1700 50  0000 C CNN
-F 2 "project:1Pin_12mil_VIA" H 2300 1700 50  0001 C CNN
-F 3 "" H 2300 1700 50  0000 C CNN
-	1    2300 1700
-	0    -1   -1   0   
-$EndComp
-$Comp
-L CONN_01X01 P4
-U 1 1 5C89FA3C
-P 2300 2900
-F 0 "P4" H 2300 3000 50  0000 C CNN
-F 1 "CONN_01X01" V 2400 2900 50  0000 C CNN
-F 2 "project:1Pin_12mil_VIA" H 2300 2900 50  0001 C CNN
-F 3 "" H 2300 2900 50  0000 C CNN
-	1    2300 2900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L GNDA #PWR017
+L controlLED-rescue:GNDA #PWR017
 U 1 1 5C9153F1
 P 2850 7400
 F 0 "#PWR017" H 2850 7150 50  0001 C CNN
@@ -842,7 +788,7 @@ SCL
 Text Label 3750 3450 0    60   ~ 0
 SDA
 $Comp
-L GND #PWR018
+L controlLED-rescue:GND #PWR018
 U 1 1 5C91D5AD
 P 3750 3650
 F 0 "#PWR018" H 3750 3400 50  0001 C CNN
@@ -915,17 +861,17 @@ Wire Wire Line
 Wire Wire Line
 	1250 700  2100 700 
 Wire Wire Line
-	3450 750  3950 750 
+	3450 750  3700 750 
 Wire Wire Line
 	1250 900  1250 800 
 Wire Wire Line
-	1250 800  2100 800 
+	1250 800  1500 800 
 Wire Wire Line
 	1500 800  1500 900 
 Wire Wire Line
 	1550 2300 1550 2200
 Wire Wire Line
-	750  1900 1150 1900
+	750  1900 1100 1900
 Wire Wire Line
 	3700 850  3700 750 
 Wire Wire Line
@@ -952,8 +898,6 @@ Wire Wire Line
 	8100 2900 8250 2900
 Wire Wire Line
 	8250 2900 8250 2650
-Wire Bus Line
-	8000 2550 8000 3850
 Wire Wire Line
 	8100 3150 8250 3150
 Wire Wire Line
@@ -988,8 +932,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 3100 6800 3100
 Wire Bus Line
-	6900 2500 6900 3850
-Wire Bus Line
 	6900 3850 8000 3850
 Wire Wire Line
 	10050 1450 10250 1450
@@ -1022,7 +964,7 @@ Wire Wire Line
 Wire Wire Line
 	1550 3500 1550 3400
 Wire Wire Line
-	750  3100 1150 3100
+	750  3100 1100 3100
 Wire Wire Line
 	2300 3100 2300 3250
 Wire Wire Line
@@ -1051,12 +993,12 @@ Wire Wire Line
 Wire Wire Line
 	2000 3250 2000 3100
 Wire Wire Line
-	1950 1900 3000 1900
+	1950 1900 2000 1900
 Connection ~ 2000 1900
 Connection ~ 2300 3100
 Connection ~ 2000 3100
 Wire Wire Line
-	1950 3100 2700 3100
+	1950 3100 2000 3100
 Wire Wire Line
 	3450 750  3450 850 
 Connection ~ 3700 750 
@@ -1136,22 +1078,22 @@ Text Label 5200 2850 0    60   ~ 0
 Ain1
 Text Label 5200 2950 0    60   ~ 0
 Ain2
-Text Label 5200 2750 0    60   ~ 0
+Text Label 5200 2650 0    60   ~ 0
 Din1
 Wire Wire Line
 	3850 2350 4150 2350
 Wire Wire Line
 	4150 2650 3850 2650
-Text Label 5200 2650 0    60   ~ 0
+Text Label 5200 2750 0    60   ~ 0
 Din2
 Wire Wire Line
 	4150 1750 3500 1750
 Wire Wire Line
 	3500 1750 3500 1900
 Wire Wire Line
-	3500 1900 3100 1900
+	3500 1900 3350 1900
 $Comp
-L CONN_01X02 P11
+L controlLED-rescue:CONN_01X02 P11
 U 1 1 5C92D4EA
 P 3050 1700
 F 0 "P11" H 3050 1850 50  0000 C CNN
@@ -1162,7 +1104,7 @@ F 3 "" H 3050 1700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R_Small R9
+L controlLED-rescue:R_Small R9
 U 1 1 5C92E142
 P 3350 2050
 F 0 "R9" V 3300 1700 50  0000 L CNN
@@ -1173,7 +1115,7 @@ F 3 "" H 3350 2050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D1
+L controlLED-rescue:LED D1
 U 1 1 5C92E797
 P 3350 2350
 F 0 "D1" H 3350 2450 50  0000 C CNN
@@ -1187,7 +1129,7 @@ Wire Wire Line
 	3350 1950 3350 1900
 Connection ~ 3350 1900
 $Comp
-L GND #PWR019
+L controlLED-rescue:GND #PWR019
 U 1 1 5C92F286
 P 3350 2550
 F 0 "#PWR019" H 3350 2300 50  0001 C CNN
@@ -1200,7 +1142,7 @@ $EndComp
 Text Label 2700 3100 0    60   ~ 0
 VCC_1
 $Comp
-L 2060-452_998-404 J9
+L controlLED-rescue:2060-452_998-404 J9
 U 1 1 5C919379
 P 2100 700
 F 0 "J9" H 2750 850 50  0000 L CNN
@@ -1216,7 +1158,7 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 2750 -100 50  0001 L CNN 
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P8
+L controlLED-rescue:CONN_01X04 P8
 U 1 1 5C91A54C
 P 3450 7250
 F 0 "P8" H 3450 7500 50  0000 C CNN
@@ -1231,7 +1173,7 @@ VCC_1
 Wire Wire Line
 	3250 7300 2850 7300
 $Comp
-L CONN_01X04 P6
+L controlLED-rescue:CONN_01X04 P6
 U 1 1 5C91B4E7
 P 1450 6150
 F 0 "P6" H 1450 6400 50  0000 C CNN
@@ -1244,7 +1186,7 @@ $EndComp
 Text Label 850  6200 0    60   ~ 0
 VCC_1
 $Comp
-L GND #PWR020
+L controlLED-rescue:GND #PWR020
 U 1 1 5C91B4F0
 P 850 6300
 F 0 "#PWR020" H 850 6050 50  0001 C CNN
@@ -1255,7 +1197,7 @@ F 3 "" H 850 6300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR021
+L controlLED-rescue:GNDA #PWR021
 U 1 1 5C91B4F6
 P 1850 6300
 F 0 "#PWR021" H 1850 6050 50  0001 C CNN
@@ -1280,7 +1222,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 6000 1850 6000
 $Comp
-L CONN_01X04 P7
+L controlLED-rescue:CONN_01X04 P7
 U 1 1 5C91B505
 P 2450 6150
 F 0 "P7" H 2450 6400 50  0000 C CNN
@@ -1298,12 +1240,8 @@ Text Label 1850 6000 0    60   ~ 0
 Din1
 Text Label 1850 6100 0    60   ~ 0
 Din2
-Text Label 850  6100 0    60   ~ 0
-Ain2
-Text Label 850  6000 0    60   ~ 0
-Ain1
 $Comp
-L CONN_01X04 P1
+L controlLED-rescue:CONN_01X04 P1
 U 1 1 5C91C037
 P 1450 5500
 F 0 "P1" H 1450 5750 50  0000 C CNN
@@ -1316,7 +1254,7 @@ $EndComp
 Text Label 850  5550 0    60   ~ 0
 VCC_1
 $Comp
-L GND #PWR022
+L controlLED-rescue:GND #PWR022
 U 1 1 5C91C03E
 P 850 5650
 F 0 "#PWR022" H 850 5400 50  0001 C CNN
@@ -1327,7 +1265,7 @@ F 3 "" H 850 5650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GNDA #PWR023
+L controlLED-rescue:GNDA #PWR023
 U 1 1 5C91C044
 P 1850 5650
 F 0 "#PWR023" H 1850 5400 50  0001 C CNN
@@ -1352,7 +1290,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 5350 1850 5350
 $Comp
-L CONN_01X04 P5
+L controlLED-rescue:CONN_01X04 P5
 U 1 1 5C91C051
 P 2450 5500
 F 0 "P5" H 2450 5750 50  0000 C CNN
@@ -1370,16 +1308,12 @@ Text Label 1850 5350 0    60   ~ 0
 Din1
 Text Label 1850 5450 0    60   ~ 0
 Din2
-Text Label 850  5450 0    60   ~ 0
-Ain2
-Text Label 850  5350 0    60   ~ 0
-Ain1
 Wire Wire Line
 	10250 900  10050 900 
 Wire Wire Line
 	10050 1000 10250 1000
 $Comp
-L 2060-452_998-404 J2
+L controlLED-rescue:2060-452_998-404 J2
 U 1 1 5C9215D4
 P 10250 1550
 F 0 "J2" H 10900 1700 50  0000 L CNN
@@ -1395,7 +1329,7 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 10900 750 50  0001 L CNN 
 	1    0    0    1   
 $EndComp
 $Comp
-L 2060-452_998-404 J3
+L controlLED-rescue:2060-452_998-404 J3
 U 1 1 5C921DAC
 P 10200 2100
 F 0 "J3" H 10850 2250 50  0000 L CNN
@@ -1411,7 +1345,7 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 10850 1300 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 2060-452_998-404 J4
+L controlLED-rescue:2060-452_998-404 J4
 U 1 1 5C921E61
 P 10200 2650
 F 0 "J4" H 10850 2800 50  0000 L CNN
@@ -1427,7 +1361,7 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 10850 1850 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 2060-452_998-404 J5
+L controlLED-rescue:2060-452_998-404 J5
 U 1 1 5C921F29
 P 10200 3200
 F 0 "J5" H 10850 3350 50  0000 L CNN
@@ -1443,7 +1377,7 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 10850 2400 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 2060-452_998-404 J6
+L controlLED-rescue:2060-452_998-404 J6
 U 1 1 5C921FF0
 P 10200 3750
 F 0 "J6" H 10850 3900 50  0000 L CNN
@@ -1459,7 +1393,7 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 10850 2950 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 2060-452_998-404 J7
+L controlLED-rescue:2060-452_998-404 J7
 U 1 1 5C9220C8
 P 10150 4300
 F 0 "J7" H 10800 4450 50  0000 L CNN
@@ -1475,7 +1409,7 @@ F 8 "http://uk.rs-online.com/web/p/products/1268947" H 10800 3500 50  0001 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L 2060-452_998-404 J8
+L controlLED-rescue:2060-452_998-404 J8
 U 1 1 5C92635F
 P 10150 4850
 F 0 "J8" H 10800 5000 50  0000 L CNN
@@ -1503,4 +1437,34 @@ Wire Wire Line
 	5700 2800 6300 2800
 Wire Wire Line
 	5700 2900 6300 2900
+Wire Wire Line
+	1100 1900 1150 1900
+Wire Wire Line
+	1100 3100 1150 3100
+Wire Wire Line
+	2000 1900 2300 1900
+Wire Wire Line
+	2300 3100 2700 3100
+Wire Wire Line
+	2000 3100 2300 3100
+Wire Wire Line
+	3700 750  3950 750 
+Wire Wire Line
+	1500 800  2100 800 
+Wire Wire Line
+	2300 1900 3000 1900
+Wire Wire Line
+	3350 1900 3100 1900
+Wire Bus Line
+	8000 2550 8000 3850
+Wire Bus Line
+	6900 2500 6900 3850
+Text Label 850  5350 0    60   ~ 0
+Ain1
+Text Label 850  5450 0    60   ~ 0
+Ain2
+Text Label 850  6100 0    60   ~ 0
+Ain2
+Text Label 850  6000 0    60   ~ 0
+Ain1
 $EndSCHEMATC
