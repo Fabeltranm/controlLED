@@ -936,10 +936,6 @@ Wire Bus Line
 Wire Wire Line
 	10050 1450 10250 1450
 Wire Wire Line
-	10250 1550 10050 1550
-Wire Wire Line
-	10050 2000 10200 2000
-Wire Wire Line
 	10050 2100 10200 2100
 Wire Wire Line
 	10050 2550 10200 2550
@@ -1310,8 +1306,6 @@ Text Label 1850 5450 0    60   ~ 0
 Din2
 Wire Wire Line
 	10250 900  10050 900 
-Wire Wire Line
-	10050 1000 10250 1000
 $Comp
 L controlLED-rescue:2060-452_998-404 J2
 U 1 1 5C9215D4
@@ -1455,10 +1449,6 @@ Wire Wire Line
 	2300 1900 3000 1900
 Wire Wire Line
 	3350 1900 3100 1900
-Wire Bus Line
-	8000 2550 8000 3850
-Wire Bus Line
-	6900 2500 6900 3850
 Text Label 850  5350 0    60   ~ 0
 Ain1
 Text Label 850  5450 0    60   ~ 0
@@ -1467,4 +1457,62 @@ Text Label 850  6100 0    60   ~ 0
 Ain2
 Text Label 850  6000 0    60   ~ 0
 Ain1
+Wire Wire Line
+	10050 1550 10250 1550
+Connection ~ 10250 1550
+Wire Wire Line
+	10250 1550 11050 1550
+Wire Wire Line
+	10050 1000 10250 1000
+Connection ~ 10250 1000
+Wire Wire Line
+	10250 1000 11050 1000
+Wire Wire Line
+	10250 900  11050 900 
+Connection ~ 10250 900 
+Wire Wire Line
+	10250 1450 11050 1450
+Connection ~ 10250 1450
+Wire Wire Line
+	10050 2000 10200 2000
+Connection ~ 10200 2000
+Wire Wire Line
+	10200 2000 11000 2000
+Wire Wire Line
+	11000 2100 10200 2100
+Connection ~ 10200 2100
+Wire Wire Line
+	11000 2550 10200 2550
+Connection ~ 10200 2550
+Wire Wire Line
+	11000 2650 10200 2650
+Connection ~ 10200 2650
+Wire Wire Line
+	11000 3650 10200 3650
+Connection ~ 10200 3650
+Wire Wire Line
+	11000 3750 10200 3750
+Connection ~ 10200 3750
+Wire Wire Line
+	10950 4200 10150 4200
+Connection ~ 10150 4200
+Wire Wire Line
+	10950 4300 10150 4300
+Connection ~ 10150 4300
+Wire Wire Line
+	10950 4750 10150 4750
+Connection ~ 10150 4750
+Wire Wire Line
+	10950 4850 10150 4850
+Connection ~ 10150 4850
+Wire Wire Line
+	2900 700  2100 700 
+Connection ~ 2100 700 
+Wire Wire Line
+	2900 800  2100 800 
+Wire Bus Line
+	8000 2550 8000 3850
+Wire Bus Line
+	6900 2500 6900 3850
+Connection ~ 2100 800 
 $EndSCHEMATC
